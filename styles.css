@@ -23,7 +23,7 @@ body{
 .wrapper{
 
     height: 100%;
-    overflow-y: hidden;
+    overflow-y: hidden  ;
     max-width: 100vw;
     min-height: 100vh;
     color: var(--colorLight2);
@@ -287,13 +287,18 @@ h1{
 .form-container .btn{
 
     padding: unset;
-    width: 60px;
-    height: 45px;
+    width: 45px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
     margin-bottom: 1px;
+}
+
+.form-container .btn img{
+
+    object-fit: contain;
 }
 
 .error{
