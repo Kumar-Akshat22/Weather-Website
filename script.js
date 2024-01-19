@@ -122,6 +122,7 @@ function renderWeatherInfo(weatherInfo) {
     const windspeed = document.querySelector('[data-windSpeed]');
     const humidity = document.querySelector('[data-humidity]');
     const clouds = document.querySelector('[data-clouds]')
+    const pressure = document.querySelector('[data-pressure]')
 
     // Fetch the values from weatherinfo and put them on UI
     cityname.innerText = weatherInfo?.name;
@@ -132,6 +133,7 @@ function renderWeatherInfo(weatherInfo) {
     windspeed.innerText = `${weatherInfo?.wind?.speed} m/s`;
     humidity.innerText = `${weatherInfo?.main?.humidity} %`;
     clouds.innerText = `${weatherInfo?.clouds?.all} %`;
+    pressure.innerText = `${weatherInfo?.main?.pressure} hPa`
 
 }
 
