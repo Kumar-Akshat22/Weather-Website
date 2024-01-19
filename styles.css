@@ -157,11 +157,6 @@ h1{
     align-items: center;
 }
 
-.weatherDescription img{
-
-    
-}
-
 .user-info-container p{
 
     font-size: 1.5rem;
@@ -193,10 +188,10 @@ h1{
 
 .parameter-container{
 
-    width: 80%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 10px 20px;
     justify-content: center;
     align-items: center;
@@ -204,7 +199,8 @@ h1{
 }
 
 .parameter{
-    width: fit-content;
+    width: 22%;
+    max-width: 200px;
     background-color: rgba(219, 226, 239, 0.5);
     border-radius: 5px;
     padding:1rem;
@@ -285,12 +281,13 @@ h1{
 .form-container .btn{
 
     padding: unset;
-    width: 70px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 100%;
+    margin-bottom: 1px;
 }
 
 .error{
@@ -304,4 +301,18 @@ h1{
 .error.active{
 
     display: flex;
+}
+
+@media (max-width:750px){
+
+    .parameter-container{
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parameter{
+
+        width: 100%;
+    }
 }
