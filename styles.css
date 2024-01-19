@@ -184,9 +184,10 @@ h1{
 
 .parameter-container{
 
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 10px 20px;
     justify-content: center;
     align-items: center;
@@ -194,9 +195,7 @@ h1{
 }
 
 .parameter{
-
-    width: 30%;
-    max-width: 200px;
+    width: fit-content;
     background-color: rgba(219, 226, 239, 0.5);
     border-radius: 5px;
     padding:1rem;
