@@ -148,6 +148,7 @@ function getLocation(){
     else{
 
         // HW - Show an alert for no Geolocation support available
+        alert('No Location Support available');
     }
 }
 
