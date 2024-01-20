@@ -25,7 +25,11 @@ https://weather-app-amber-zeta.vercel.app
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Kumar-Akshat22/Weather-App/blob/main/assets/Screenshots/1.png)
+![App Screenshot1](https://github.com/Kumar-Akshat22/Weather-App/blob/main/assets/Screenshots/1.png)
+
+![App Screenshot2](https://github.com/Kumar-Akshat22/Weather-App/blob/main/assets/Screenshots/2.png)
+
+![App Screenshot3](https://github.com/Kumar-Akshat22/Weather-App/blob/main/assets/Screenshots/3.png)
 
 ## Color Reference
 
